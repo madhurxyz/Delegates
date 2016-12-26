@@ -21,5 +21,10 @@ class PickerViewController: UIViewController, UIPickerViewDelegate {
         self.pickerView.delegate = self
 
     }
-
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        
+        return 1
+        
+    }
+    
 }
