@@ -32,5 +32,8 @@ class PickerViewController: UIViewController, UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return cities[row]
     }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        cityLabel.text = cities[row]
+    }
     
 }
