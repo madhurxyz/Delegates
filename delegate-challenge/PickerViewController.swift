@@ -12,9 +12,14 @@ class PickerViewController: UIViewController, UIPickerViewDelegate {
 
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var cityLabel: UILabel!
+    
     var delegate: UIPickerViewDelegate!
+    let cities = ["New York", "San Francisco", "Berlin", "Hamburg", "Paris"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.pickerView.delegate = self
+
     }
 
 }
