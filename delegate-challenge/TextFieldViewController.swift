@@ -15,7 +15,7 @@ class TextFieldViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.textField.delegate = self
         
     }
 
