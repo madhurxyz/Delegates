@@ -10,10 +10,12 @@ import UIKit
 
 class TextFieldViewController: UIViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var textField: UITextField!
     var delegate: UITextFieldDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
     }
 

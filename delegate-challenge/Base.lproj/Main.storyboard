@@ -93,6 +93,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="o6e-XS-2WL"/>
+                    <connections>
+                        <outlet property="textField" destination="KEG-RI-uPM" id="tcr-MS-dwL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mF9-5e-7DP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
