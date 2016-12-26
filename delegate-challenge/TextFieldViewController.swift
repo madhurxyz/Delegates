@@ -18,5 +18,9 @@ class TextFieldViewController: UIViewController, UITextFieldDelegate {
         self.textField.delegate = self
         
     }
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+       
+        return true
+    }
 
 }
