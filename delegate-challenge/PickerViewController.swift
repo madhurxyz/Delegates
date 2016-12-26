@@ -10,7 +10,7 @@ import UIKit
 
 class PickerViewController: UIViewController, UIPickerViewDelegate {
 
-    
+    var delegate: UIPickerViewDelegate!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
