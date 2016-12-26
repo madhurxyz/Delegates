@@ -10,6 +10,8 @@ import UIKit
 
 class PickerViewController: UIViewController, UIPickerViewDelegate {
 
+    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet weak var cityLabel: UILabel!
     var delegate: UIPickerViewDelegate!
     override func viewDidLoad() {
         super.viewDidLoad()

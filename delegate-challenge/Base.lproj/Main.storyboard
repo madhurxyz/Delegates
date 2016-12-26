@@ -52,6 +52,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="jsg-mg-ZM1"/>
+                    <connections>
+                        <outlet property="cityLabel" destination="dOm-gF-EX1" id="1xt-u4-gSl"/>
+                        <outlet property="pickerView" destination="Ank-vP-WLv" id="Mbu-sM-Qx3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwh-yN-3zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
